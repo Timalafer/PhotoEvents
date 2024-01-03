@@ -1,0 +1,34 @@
+<?php get_header(); ?>
+
+<main>
+    <!-- Bannière et titre de la page -->
+    <section class="banner">
+        <?php get_template_part('template-parts/banner'); ?>
+    </section>
+
+    <!-- Galerie de photos triable -->
+
+    <section id="gallery-filters" class="gallery-filters">
+        <?php get_template_part('template-parts/filters'); ?>
+    </section>
+
+
+    <section id="gallery" class="gallery">
+        <?php get_template_part('template-parts/gallery'); ?>
+    </section>
+
+
+    <div id="blockPusdImage">
+        <button id="load-more" data-page="1" data-url="<?php echo admin_url('admin-ajax.php'); ?>">Charger plus</button>
+    </div>
+
+    <script>
+        var ajaxurl = "<?php echo admin_url('admin-ajax.php'); ?>";
+    </script>
+
+</main>
+
+
+
+
+<?php get_footer(); ?>
