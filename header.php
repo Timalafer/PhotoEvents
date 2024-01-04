@@ -24,7 +24,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/6417d2c820.js" crossorigin="anonymous"></script>
+
 
 	<title>NathalieMota</title>
 	<?php wp_head() ?>

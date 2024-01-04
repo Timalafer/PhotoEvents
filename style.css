@@ -37,6 +37,53 @@ Text Domain:  photographie professionnelle dans l’événementiel
     }
 }
 
+/* CSS pour le body */
+body {
+    max-width: 1440px;
+    margin: auto;
+}
+
+body ul {
+    list-style-type: none;
+}
+
+body a {
+    color: black;
+    text-decoration: none;
+    font-family: space_monoregular;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: space_monoregular;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 58px;
+}
+
+@media (max-width: 1140px) {
+    h2 {
+        font-size: 40px;
+        width: 415px;
+    }
+}
+
+h3 {
+    font-family: space_monoregular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+p {
+    margin-bottom: 15 px;
+    font-family: PoppinsRegular;
+    font-size: 14px;
+}
 
 /*header */
 
@@ -457,14 +504,7 @@ h1 {
     margin-top: 30px;
 }
 
-.gallery img {
-    Width: 500px;
-    Height: 400px;
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-    object-fit: cover;
-}
+
 
 
 /* CSS pour le bouton "Charger plus de photos" */
@@ -478,8 +518,8 @@ h1 {
     font-weight: 400;
 
     letter-spacing: 0;
-    width: 260px;
-    height: 42px;
+    width: 270px;
+    height: 50px;
 
 
     padding: 8px 15px;
@@ -608,113 +648,7 @@ h1 {
 
 }
 
-/*miniatures */
 
-.thumbnail-image {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    margin: 5px 0px;
-}
-
-.thumbnail-image img {
-    width: 110px;
-    height: 110px;
-    object-fit: cover;
-
-    &:hover {
-        transform: scale(1.1);
-        cursor: pointer;
-    }
-}
-
-.category-thumbnail {
-    display: flex;
-    justify-content: right;
-    margin-right: 80px;
-}
-
-.additional-arrows {
-    display: flex;
-    gap: 60px
-}
-
-.arrow-left,
-.arrow-right {
-    width: 25px;
-    height: 25px;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    /* Bordure noire */
-    transform: rotate(-180deg);
-    /* Rotation à 180 degrés */
-}
-
-.arrow-left i,
-.arrow-right i {
-    font-size: 20px;
-    /* Taille de la flèche */
-    color: rgba(0, 0, 0, 1);
-    /* Couleur de la flèche */
-}
-
-
-
-
-/*random*/
-.random-photos {
-    margin: 30px 30px;
-    padding-top: 35px;
-}
-
-.related-photos-p {
-    font-family: 'Space Mono', monospace;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0.1em;
-    text-align: left;
-    /* Ajoute d'autres styles si nécessaire */
-}
-
-.more-photos-button {
-    text-align: center;
-    /* Centrer le bouton horizontalement */
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    /* Ajoute de l'espace entre les photos et le bouton */
-}
-
-.view-more-link {
-    display: flex;
-    /* Utilisation de flexbox */
-    justify-content: center;
-    /* Centre horizontalement */
-    align-items: center;
-    /* Centre verticalement */
-    background: rgba(216, 216, 216, 1);
-    width: 272px;
-    height: 50px;
-    padding: 8px 15px;
-    border-radius: 2px;
-    text-decoration: none;
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.02);
-    /* Ajoute d'autres styles si nécessaire */
-}
-
-.view-more-link .button-text {
-    font-family: 'Space Mono', monospace;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0em;
-    color: black;
-    /* Ajoute d'autres styles si nécessaire */
-}
 
 
 

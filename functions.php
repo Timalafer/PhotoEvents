@@ -194,7 +194,6 @@ function load_more_photos()
 		$output = ob_get_clean();
 		echo $output;
 	} else {
-		echo 'no_posts';
 	}
 	die();
 }

@@ -18,9 +18,9 @@
     </section>
 
 
-    <div id="blockPusdImage">
-        <button id="load-more" data-page="1" data-url="<?php echo admin_url('admin-ajax.php'); ?>">Charger plus</button>
-    </div>
+
+    <button id="load-more" data-page="1" data-url="<?php echo admin_url('admin-ajax.php'); ?>">Charger plus</button>
+
 
     <script>
         var ajaxurl = "<?php echo admin_url('admin-ajax.php'); ?>";
